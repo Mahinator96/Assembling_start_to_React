@@ -7,7 +7,8 @@
     "build:dev": "set NODE_ENV=development&&webpack",
     "build:prod": "set NODE_ENV=production&&webpack",
     "start": "set NODE_ENV=development&&webpack server",
-    "clear": "rd /s /q dist"
+    "clear": "rd /s /q dist",
+    "component": "hygen create component"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "css-loader": "^6.10.0",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
+    "hygen": "^6.2.11",
     "mini-css-extract-plugin": "^2.8.0",
     "postcss": "^8.4.35",
     "postcss-loader": "^8.1.0",
